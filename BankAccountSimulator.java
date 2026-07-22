@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BankAccountSimulator {
     public static void main(String[] args) {
-        //input
+        //input from the user 
         Scanner sc = new Scanner(System.in);
         String accountHolder;
         int accountNumber = 1001;
@@ -26,7 +26,7 @@ public class BankAccountSimulator {
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
             Choice = sc.nextInt();
-
+g
             switch (Choice) {
                 case 1:
                     //Deposit
