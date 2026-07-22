@@ -26,7 +26,6 @@ public class BankAccountSimulator {
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
             Choice = sc.nextInt();
-g
             switch (Choice) {
                 case 1:
                     //Deposit
